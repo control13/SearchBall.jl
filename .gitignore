@@ -9,6 +9,7 @@ Manifest.toml
 
 *.jld
 
+*.log
 errors
 
 # ipython
