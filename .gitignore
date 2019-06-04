@@ -1,0 +1,19 @@
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# julia docs
+docs/build/
+docs/site/
+Manifest.toml
+
+*.jld
+
+errors
+
+# ipython
+.ipynb_checkpoints
+
+# custom data
+memory.txt
+glVisTypes
