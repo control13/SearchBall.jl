@@ -3,7 +3,6 @@ os:
     - linux
     - osx
 julia:
-    - 0.7
     - 1.0
     - 1.1
     - nightly
@@ -12,6 +11,12 @@ matrix:
     - julia: nightly
 notifications:
     email: false
+addons:
+    apt:
+        packages:
+            - xvfb
+            - xauth
+            - libgtk-3-dev
 
 script:
  - julia --check-bounds=yes --inline=no -e 'import Pkg; Pkg.build("SearchBall"); Pkg.test(; coverage=true)'
