@@ -1,7 +1,7 @@
 # Simulation of moving robots in planar areas
 
-[![Build status](https://ci.appveyor.com/api/projects/status/r5tmps042r07ujhm?svg=true)](https://ci.appveyor.com/project/control13/searchball-jl)
 [![Build Status](https://travis-ci.com/control13/SearchBall.jl.svg?branch=master)](https://travis-ci.com/control13/SearchBall.jl)
+[![Build status](https://ci.appveyor.com/api/projects/status/r5tmps042r07ujhm?svg=true)](https://ci.appveyor.com/project/control13/searchball-jl)
 
 [![Coverage Status](https://coveralls.io/repos/github/control13/SearchBall.jl/badge.svg?branch=master)](https://coveralls.io/github/control13/SearchBall.jl?branch=master)
 [![codecov](https://codecov.io/gh/control13/SearchBall.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/control13/SearchBall.jl)
