@@ -14,6 +14,6 @@ config = "startposition01"
 
 #TODO: make runnable from everywhere
 configFile = joinpath(pwd(), "configs", string(config, ".config"))
-configFile = joinpath("/home/tobias/doc/SearchBall/SearchBall.jl/", "configs", string(config, ".config"))
+# configFile = joinpath("/home/tobias/doc/SearchBall/SearchBall.jl/", "configs", string(config, ".config"))
 configFile = normpath(configFile)
 sb.main(configFile)
