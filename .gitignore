@@ -18,3 +18,5 @@ errors
 # custom data
 memory.txt
 glVisTypes
+
+Project.toml
