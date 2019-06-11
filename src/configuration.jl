@@ -316,6 +316,7 @@ function setstrategies!(config::Config)
     config.strategies_table["GrowingRegions"] = GrowingRegions
     # config.strategies_table["BaMichelle"] = BaMichelle
     # config.strategies_table["BaJakob"] = BaJakob
+    config.strategies_table["BaNicolas"] = BaNicolas
     config.strategies_table["StartPositions01"] = StartPositions01
     config.strategies_table["PushballNN"] = PushballNN
 end

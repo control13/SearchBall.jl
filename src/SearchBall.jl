@@ -15,6 +15,7 @@ module SearchBall
     include("strategies/test_strategy.jl")
     include("strategies/global_com_shadow.jl")
     # include("strategies/ba_jakob.jl")
+    include("strategies/ba_nicolas.jl")
     include("strategies/startpositions01.jl")
     include("strategies/pushball_NN.jl")
     include("strategies/growing_regions.jl")
